@@ -1,0 +1,26 @@
+{
+  "name": "gitlab-hours",
+  "version": "1.0.0",
+  "description": "This is a node utility for tracking time spent on Gitlab projects on a per user basis, filtered by a date range. It queries the Gitlab API to retrieve all projects for a user. This information is then used to build and execute a [gitlab-time-tracker](https://www.npmjs.com/package/gitlab-time-tracker) command.",
+  "main": "query.js",
+  "dependencies": {
+    "gitlab-time-tracker": "^1.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gtt:config": "node_modules/.bin/gtt config",
+    "postinstall": "node_modules/.bin/gtt config"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.raddws.com:raddcreative/gitlab-hours-cli.git"
+  },
+  "keywords": [
+    "gitlab",
+    "time",
+    "tracking"
+  ],
+  "author": "RADD Creative",
+  "license": "ISC"
+}

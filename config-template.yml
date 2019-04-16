@@ -1,0 +1,8 @@
+# Gitlab API
+url: https://git.raddws.com/api/v4/
+# Access token from Gitlab
+token: #Put your token here#
+#Show closed issues and merge requests
+closed: true
+# Check access token validity up front. This will tell you if your token is bad!
+_checkToken: true
